@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ #navbar  #dd {
+width: 80px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.4;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+p {
+  margin: 0.75rem 0;
+}
+/* Utilitie classes */
+ 
+ .text-center {
+   text-align: center;
+ }
+
+.py-1 {padding: 1rem 0;}
+.py-2 {padding: 2rem 0;}
+.py-3 {padding: 3rem 0;}
+
+.p-1 {padding: 1.5rem ;}
+.p-2 {padding: 2rem ;}
+.p-3 {padding: 3rem ;} 
+
+.i-1 {height: 481px;}
+
+.l-heading {
+  font-size: 5rem;
+  font-family: 'Meddon', cursive;
+}
+
+/* .h-heading {
+padding-top: 4.5rem;
+
+} */
+
+.btn {
+  display: inline-block;
+  color: #fff;
+  background: #2f6276;
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 40%;
+  opacity: 0.8;
+}
+
+.btn:hover {
+ background: #2f6276;
+ opacity: 1;
+}
+.text-primary {
+  color: #ff6767;
+}
+
+.text-secondary {
+  color: #333;
+}
+
+.text-third {
+  color: #FFD700;
+}
+
+#navbar {
+  display: flex;
+  position: sticky;
+  justify-content: space-between;
+  top: 0;
+  z-index: 1;
+  padding: 1rem;
+  color: #fff;
+}
+
+#navbar h1 {
+font-family: 'Meddon', cursive;
+}
+
+
+#navbar ul  {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+#navbar ul li a {
+  padding: 0.75rem;
+  margin: 0.25rem; 
+  color: #fff; 
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+  background: #135775  ;
+  border-radius: 5px;
+  color: #ff6767; 
+}
+
+#showcase {
+  background: url(/img/main.jpg) no-repeat center center/cover;
+  height: 100vh;
+  color: #fff;
+  position: relative;
+}
+
+#showcase .showcase-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 95%;
+ 
+}
+/* Contact */
+#contact {
+  display: flex;
+}
+
+#contact .contact-form, #contact .map {
+flex: 1;
+flex-basis: 50%;
+}
+
+#contact .contact-form .form-group {
+  margin: 0.75rem
+}
+
+#contact .contact-form label {
+  display: block;
+ }
+
+ #contact .contact-form input,
+#contact .contact-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+}
+ 
+#contact .contact-form .form-group .btn {
+  margin-top: 1.5rem;
+}
+/* Main */
+.bg-main {
+  background: #2f6276;
+}
+
+/* Hurgada */
+ .bg-gold {
+  background: #D4AF37;
+}
+
+#showcase2 {
+  background: url(/img/egypt.jpg) no-repeat center center/cover;
+  height: 100vh;
+  color: #fff;
+  position: relative;
+}
+
+#contact .contact-form .h-heading,
+#contact .contact-form #hg {
+  font-family: 'Meddon', cursive;
+  color: #333;
+  font-size: 1.3rem;
+}
+
+/* Georgia */
+.bg-green {
+background: #827717;
+}
+
+#showcase3 {
+  background: url(/img/georgia3.jpg) no-repeat center center/cover;
+  height: 100vh;
+  color: #fff;
+  position: relative;
+}
+
+/* Vietnam */
+.bg-teal {
+background: teal;
+}
+
+#showcase4 {
+  background: url(/img/vietnam3.jpg) no-repeat center center/cover;
+  height: 100vh;
+  color: #fff;
+  position: relative;
+}
